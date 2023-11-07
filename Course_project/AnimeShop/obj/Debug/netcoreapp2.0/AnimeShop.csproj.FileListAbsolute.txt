@@ -1,0 +1,95 @@
+D:\1. Системные\Рабочий стол\11\OnlinePizzaWebApplication\bin\Debug\netcoreapp2.0\appsettings.Development.json
+D:\1. Системные\Рабочий стол\11\OnlinePizzaWebApplication\bin\Debug\netcoreapp2.0\appsettings.json
+D:\1. Системные\Рабочий стол\11\OnlinePizzaWebApplication\bin\Debug\netcoreapp2.0\appsettings.production.json
+D:\1. Системные\Рабочий стол\11\OnlinePizzaWebApplication\bin\Debug\netcoreapp2.0\bower.json
+D:\1. Системные\Рабочий стол\11\OnlinePizzaWebApplication\bin\Debug\netcoreapp2.0\bundleconfig.json
+D:\1. Системные\Рабочий стол\11\OnlinePizzaWebApplication\bin\Debug\netcoreapp2.0\AnimeShop.deps.json
+D:\1. Системные\Рабочий стол\11\OnlinePizzaWebApplication\bin\Debug\netcoreapp2.0\AnimeShop.runtimeconfig.json
+D:\1. Системные\Рабочий стол\11\OnlinePizzaWebApplication\bin\Debug\netcoreapp2.0\AnimeShop.runtimeconfig.dev.json
+D:\1. Системные\Рабочий стол\11\OnlinePizzaWebApplication\bin\Debug\netcoreapp2.0\AnimeShop.dll
+D:\1. Системные\Рабочий стол\11\OnlinePizzaWebApplication\bin\Debug\netcoreapp2.0\AnimeShop.pdb
+D:\1. Системные\Рабочий стол\11\OnlinePizzaWebApplication\obj\Debug\netcoreapp2.0\AnimeShop.csproj.AssemblyReference.cache
+D:\1. Системные\Рабочий стол\11\OnlinePizzaWebApplication\obj\Debug\netcoreapp2.0\AnimeShop.GeneratedMSBuildEditorConfig.editorconfig
+D:\1. Системные\Рабочий стол\11\OnlinePizzaWebApplication\obj\Debug\netcoreapp2.0\AnimeShop.AssemblyInfoInputs.cache
+D:\1. Системные\Рабочий стол\11\OnlinePizzaWebApplication\obj\Debug\netcoreapp2.0\AnimeShop.AssemblyInfo.cs
+D:\1. Системные\Рабочий стол\11\OnlinePizzaWebApplication\obj\Debug\netcoreapp2.0\AnimeShop.csproj.CoreCompileInputs.cache
+D:\1. Системные\Рабочий стол\11\OnlinePizzaWebApplication\obj\Debug\netcoreapp2.0\UserSecretsAssemblyInfo.cs
+D:\1. Системные\Рабочий стол\11\OnlinePizzaWebApplication\obj\Debug\netcoreapp2.0\AnimeShop.dll
+D:\1. Системные\Рабочий стол\11\OnlinePizzaWebApplication\obj\Debug\netcoreapp2.0\AnimeShop.pdb
+D:\1. Системные\Рабочий стол\11\OnlinePizzaWebApplication\obj\Debug\netcoreapp2.0\AnimeShop.genruntimeconfig.cache
+D:\1. Системные\Рабочий стол\AnimeShop — копия\AnimeShop\bin\Debug\netcoreapp2.0\appsettings.Development.json
+D:\1. Системные\Рабочий стол\AnimeShop — копия\AnimeShop\bin\Debug\netcoreapp2.0\appsettings.json
+D:\1. Системные\Рабочий стол\AnimeShop — копия\AnimeShop\bin\Debug\netcoreapp2.0\appsettings.production.json
+D:\1. Системные\Рабочий стол\AnimeShop — копия\AnimeShop\bin\Debug\netcoreapp2.0\bower.json
+D:\1. Системные\Рабочий стол\AnimeShop — копия\AnimeShop\bin\Debug\netcoreapp2.0\bundleconfig.json
+D:\1. Системные\Рабочий стол\AnimeShop — копия\AnimeShop\bin\Debug\netcoreapp2.0\AnimeShop.deps.json
+D:\1. Системные\Рабочий стол\AnimeShop — копия\AnimeShop\bin\Debug\netcoreapp2.0\AnimeShop.runtimeconfig.json
+D:\1. Системные\Рабочий стол\AnimeShop — копия\AnimeShop\bin\Debug\netcoreapp2.0\AnimeShop.runtimeconfig.dev.json
+D:\1. Системные\Рабочий стол\AnimeShop — копия\AnimeShop\bin\Debug\netcoreapp2.0\AnimeShop.dll
+D:\1. Системные\Рабочий стол\AnimeShop — копия\AnimeShop\bin\Debug\netcoreapp2.0\AnimeShop.pdb
+D:\1. Системные\Рабочий стол\AnimeShop — копия\AnimeShop\obj\Debug\netcoreapp2.0\AnimeShop.csproj.AssemblyReference.cache
+D:\1. Системные\Рабочий стол\AnimeShop — копия\AnimeShop\obj\Debug\netcoreapp2.0\AnimeShop.GeneratedMSBuildEditorConfig.editorconfig
+D:\1. Системные\Рабочий стол\AnimeShop — копия\AnimeShop\obj\Debug\netcoreapp2.0\AnimeShop.AssemblyInfoInputs.cache
+D:\1. Системные\Рабочий стол\AnimeShop — копия\AnimeShop\obj\Debug\netcoreapp2.0\AnimeShop.AssemblyInfo.cs
+D:\1. Системные\Рабочий стол\AnimeShop — копия\AnimeShop\obj\Debug\netcoreapp2.0\AnimeShop.csproj.CoreCompileInputs.cache
+D:\1. Системные\Рабочий стол\AnimeShop — копия\AnimeShop\obj\Debug\netcoreapp2.0\UserSecretsAssemblyInfo.cs
+D:\1. Системные\Рабочий стол\AnimeShop — копия\AnimeShop\obj\Debug\netcoreapp2.0\AnimeShop.dll
+D:\1. Системные\Рабочий стол\AnimeShop — копия\AnimeShop\obj\Debug\netcoreapp2.0\AnimeShop.pdb
+D:\1. Системные\Рабочий стол\AnimeShop — копия\AnimeShop\obj\Debug\netcoreapp2.0\AnimeShop.genruntimeconfig.cache
+D:\1. Системные\Рабочий стол\AnimeShop\AnimeShop\bin\Debug\netcoreapp2.0\appsettings.Development.json
+D:\1. Системные\Рабочий стол\AnimeShop\AnimeShop\bin\Debug\netcoreapp2.0\appsettings.json
+D:\1. Системные\Рабочий стол\AnimeShop\AnimeShop\bin\Debug\netcoreapp2.0\appsettings.production.json
+D:\1. Системные\Рабочий стол\AnimeShop\AnimeShop\bin\Debug\netcoreapp2.0\bower.json
+D:\1. Системные\Рабочий стол\AnimeShop\AnimeShop\bin\Debug\netcoreapp2.0\bundleconfig.json
+D:\1. Системные\Рабочий стол\AnimeShop\AnimeShop\bin\Debug\netcoreapp2.0\AnimeShop.deps.json
+D:\1. Системные\Рабочий стол\AnimeShop\AnimeShop\bin\Debug\netcoreapp2.0\AnimeShop.runtimeconfig.json
+D:\1. Системные\Рабочий стол\AnimeShop\AnimeShop\bin\Debug\netcoreapp2.0\AnimeShop.runtimeconfig.dev.json
+D:\1. Системные\Рабочий стол\AnimeShop\AnimeShop\bin\Debug\netcoreapp2.0\AnimeShop.dll
+D:\1. Системные\Рабочий стол\AnimeShop\AnimeShop\bin\Debug\netcoreapp2.0\AnimeShop.pdb
+D:\1. Системные\Рабочий стол\AnimeShop\AnimeShop\obj\Debug\netcoreapp2.0\AnimeShop.csproj.AssemblyReference.cache
+D:\1. Системные\Рабочий стол\AnimeShop\AnimeShop\obj\Debug\netcoreapp2.0\AnimeShop.GeneratedMSBuildEditorConfig.editorconfig
+D:\1. Системные\Рабочий стол\AnimeShop\AnimeShop\obj\Debug\netcoreapp2.0\AnimeShop.AssemblyInfoInputs.cache
+D:\1. Системные\Рабочий стол\AnimeShop\AnimeShop\obj\Debug\netcoreapp2.0\AnimeShop.AssemblyInfo.cs
+D:\1. Системные\Рабочий стол\AnimeShop\AnimeShop\obj\Debug\netcoreapp2.0\AnimeShop.csproj.CoreCompileInputs.cache
+D:\1. Системные\Рабочий стол\AnimeShop\AnimeShop\obj\Debug\netcoreapp2.0\UserSecretsAssemblyInfo.cs
+D:\1. Системные\Рабочий стол\AnimeShop\AnimeShop\obj\Debug\netcoreapp2.0\AnimeShop.dll
+D:\1. Системные\Рабочий стол\AnimeShop\AnimeShop\obj\Debug\netcoreapp2.0\AnimeShop.pdb
+D:\1. Системные\Рабочий стол\AnimeShop\AnimeShop\obj\Debug\netcoreapp2.0\AnimeShop.genruntimeconfig.cache
+D:\1. Системные\Рабочий стол\Менжа для любы\AnimeShop\AnimeShop\bin\Debug\netcoreapp2.0\appsettings.Development.json
+D:\1. Системные\Рабочий стол\Менжа для любы\AnimeShop\AnimeShop\bin\Debug\netcoreapp2.0\appsettings.json
+D:\1. Системные\Рабочий стол\Менжа для любы\AnimeShop\AnimeShop\bin\Debug\netcoreapp2.0\appsettings.production.json
+D:\1. Системные\Рабочий стол\Менжа для любы\AnimeShop\AnimeShop\bin\Debug\netcoreapp2.0\bower.json
+D:\1. Системные\Рабочий стол\Менжа для любы\AnimeShop\AnimeShop\bin\Debug\netcoreapp2.0\bundleconfig.json
+D:\1. Системные\Рабочий стол\Менжа для любы\AnimeShop\AnimeShop\bin\Debug\netcoreapp2.0\AnimeShop.deps.json
+D:\1. Системные\Рабочий стол\Менжа для любы\AnimeShop\AnimeShop\bin\Debug\netcoreapp2.0\AnimeShop.runtimeconfig.json
+D:\1. Системные\Рабочий стол\Менжа для любы\AnimeShop\AnimeShop\bin\Debug\netcoreapp2.0\AnimeShop.runtimeconfig.dev.json
+D:\1. Системные\Рабочий стол\Менжа для любы\AnimeShop\AnimeShop\bin\Debug\netcoreapp2.0\AnimeShop.dll
+D:\1. Системные\Рабочий стол\Менжа для любы\AnimeShop\AnimeShop\bin\Debug\netcoreapp2.0\AnimeShop.pdb
+D:\1. Системные\Рабочий стол\Менжа для любы\AnimeShop\AnimeShop\obj\Debug\netcoreapp2.0\AnimeShop.csproj.AssemblyReference.cache
+D:\1. Системные\Рабочий стол\Менжа для любы\AnimeShop\AnimeShop\obj\Debug\netcoreapp2.0\AnimeShop.GeneratedMSBuildEditorConfig.editorconfig
+D:\1. Системные\Рабочий стол\Менжа для любы\AnimeShop\AnimeShop\obj\Debug\netcoreapp2.0\AnimeShop.AssemblyInfoInputs.cache
+D:\1. Системные\Рабочий стол\Менжа для любы\AnimeShop\AnimeShop\obj\Debug\netcoreapp2.0\AnimeShop.AssemblyInfo.cs
+D:\1. Системные\Рабочий стол\Менжа для любы\AnimeShop\AnimeShop\obj\Debug\netcoreapp2.0\AnimeShop.csproj.CoreCompileInputs.cache
+D:\1. Системные\Рабочий стол\Менжа для любы\AnimeShop\AnimeShop\obj\Debug\netcoreapp2.0\UserSecretsAssemblyInfo.cs
+D:\1. Системные\Рабочий стол\Менжа для любы\AnimeShop\AnimeShop\obj\Debug\netcoreapp2.0\AnimeShop.dll
+D:\1. Системные\Рабочий стол\Менжа для любы\AnimeShop\AnimeShop\obj\Debug\netcoreapp2.0\AnimeShop.pdb
+D:\1. Системные\Рабочий стол\Менжа для любы\AnimeShop\AnimeShop\obj\Debug\netcoreapp2.0\AnimeShop.genruntimeconfig.cache
+E:\НГТУ Бакалавтриат\Программное обеспечение информационных систем\AnimeShop\AnimeShop\bin\Debug\netcoreapp2.0\appsettings.Development.json
+E:\НГТУ Бакалавтриат\Программное обеспечение информационных систем\AnimeShop\AnimeShop\bin\Debug\netcoreapp2.0\appsettings.json
+E:\НГТУ Бакалавтриат\Программное обеспечение информационных систем\AnimeShop\AnimeShop\bin\Debug\netcoreapp2.0\appsettings.production.json
+E:\НГТУ Бакалавтриат\Программное обеспечение информационных систем\AnimeShop\AnimeShop\bin\Debug\netcoreapp2.0\bower.json
+E:\НГТУ Бакалавтриат\Программное обеспечение информационных систем\AnimeShop\AnimeShop\bin\Debug\netcoreapp2.0\bundleconfig.json
+E:\НГТУ Бакалавтриат\Программное обеспечение информационных систем\AnimeShop\AnimeShop\bin\Debug\netcoreapp2.0\AnimeShop.deps.json
+E:\НГТУ Бакалавтриат\Программное обеспечение информационных систем\AnimeShop\AnimeShop\bin\Debug\netcoreapp2.0\AnimeShop.runtimeconfig.json
+E:\НГТУ Бакалавтриат\Программное обеспечение информационных систем\AnimeShop\AnimeShop\bin\Debug\netcoreapp2.0\AnimeShop.runtimeconfig.dev.json
+E:\НГТУ Бакалавтриат\Программное обеспечение информационных систем\AnimeShop\AnimeShop\bin\Debug\netcoreapp2.0\AnimeShop.dll
+E:\НГТУ Бакалавтриат\Программное обеспечение информационных систем\AnimeShop\AnimeShop\bin\Debug\netcoreapp2.0\AnimeShop.pdb
+E:\НГТУ Бакалавтриат\Программное обеспечение информационных систем\AnimeShop\AnimeShop\obj\Debug\netcoreapp2.0\AnimeShop.csproj.AssemblyReference.cache
+E:\НГТУ Бакалавтриат\Программное обеспечение информационных систем\AnimeShop\AnimeShop\obj\Debug\netcoreapp2.0\AnimeShop.GeneratedMSBuildEditorConfig.editorconfig
+E:\НГТУ Бакалавтриат\Программное обеспечение информационных систем\AnimeShop\AnimeShop\obj\Debug\netcoreapp2.0\AnimeShop.AssemblyInfoInputs.cache
+E:\НГТУ Бакалавтриат\Программное обеспечение информационных систем\AnimeShop\AnimeShop\obj\Debug\netcoreapp2.0\AnimeShop.AssemblyInfo.cs
+E:\НГТУ Бакалавтриат\Программное обеспечение информационных систем\AnimeShop\AnimeShop\obj\Debug\netcoreapp2.0\AnimeShop.csproj.CoreCompileInputs.cache
+E:\НГТУ Бакалавтриат\Программное обеспечение информационных систем\AnimeShop\AnimeShop\obj\Debug\netcoreapp2.0\UserSecretsAssemblyInfo.cs
+E:\НГТУ Бакалавтриат\Программное обеспечение информационных систем\AnimeShop\AnimeShop\obj\Debug\netcoreapp2.0\AnimeShop.dll
+E:\НГТУ Бакалавтриат\Программное обеспечение информационных систем\AnimeShop\AnimeShop\obj\Debug\netcoreapp2.0\AnimeShop.pdb
+E:\НГТУ Бакалавтриат\Программное обеспечение информационных систем\AnimeShop\AnimeShop\obj\Debug\netcoreapp2.0\AnimeShop.genruntimeconfig.cache

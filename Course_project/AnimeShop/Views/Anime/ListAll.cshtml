@@ -1,0 +1,17 @@
+﻿@model SearchAnimeViewModel
+
+@{
+    var pageName = "Каталог";
+    ViewData["Title"] = pageName;
+}
+
+<h2>@pageName товаров</h2>
+
+<div id="AnimeSummaryId">
+    @foreach (var anime in Model.AnimeList)
+    {
+        @Html.Partial("AnimeSummary", anime)
+    }
+</div>
+<br />
+

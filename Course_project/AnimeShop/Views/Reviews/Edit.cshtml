@@ -1,0 +1,60 @@
+﻿@model AnimeShop.Models.Reviews
+
+@{ ViewData["Title"] = "Изменить"; }
+
+<h2>Изменить отзыв</h2>
+
+<form asp-action="Edit">
+    <div class="form-horizontal">
+        <hr />
+        <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+        <input type="hidden" asp-for="Id" />
+        <div class="form-group">
+            <label asp-for="Title" class="col-md-2 control-label">Отзыв</label>
+            <div class="col-md-10">
+                <input asp-for="Title" class="form-control" />
+                <span asp-validation-for="Title" class="text-danger"></span>
+            </div>
+        </div>
+        <div class="form-group">
+            <label asp-for="Description" class="col-md-2 control-label">Описнаие</label>
+            <div class="col-md-10">
+                <input asp-for="Description" class="form-control" />
+                <span asp-validation-for="Description" class="text-danger"></span>
+            </div>
+        </div>
+        <div class="form-group">
+            <label asp-for="Grade" class="col-md-2 control-label">Оценка</label>
+            <div class="col-md-10">
+                <select asp-for="Grade" class="form-control" asp-items="ViewBag.Grade"></select>
+            </div>
+        </div>
+        <div class="form-group" hidden="hidden">
+            <label asp-for="Date" class="col-md-2 control-label">Дата</label>
+            <div class="col-md-10">
+                <input asp-for="Date" class="form-control" />
+                <span asp-validation-for="Date" class="text-danger"></span>
+            </div>
+        </div>
+        <div class="form-group">
+            <label asp-for="AnimeId" class="control-label col-md-2">Товар</label>
+            <div class="col-md-10">
+                <select asp-for="AnimeId" class="form-control" asp-items="ViewBag.AnimeId"></select>
+                <span asp-validation-for="AnimeId" class="text-danger"></span>
+            </div>
+        </div>
+        <div class="form-group">
+            <div class="col-md-offset-2 col-md-10">
+                <input type="submit" value="Сохранить" class="btn btn-default" />
+            </div>
+        </div>
+    </div>
+</form>
+
+<div>
+    <a asp-action="Index">Вернуться к списку</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

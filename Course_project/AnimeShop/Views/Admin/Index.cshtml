@@ -1,0 +1,12 @@
+﻿@{
+    var ModelName = "Админ панель";
+    ViewData["Title"] = ModelName;
+}
+
+<h2>@ModelName</h2>
+
+<h3><a asp-controller="Anime" asp-action="Index">Каталог товаров</a></h3>
+<h3><a asp-controller="Categories" asp-action="Index">Категории</a></h3>
+<h3><a asp-controller="Reviews" asp-action="Index">Отзывы</a></h3>
+<h3><a asp-controller="Orders" asp-action="Index">Заказы</a></h3>
+<h3><a asp-controller="Admin" asp-action="ClearDatabaseAsync">Очистить БД</a></h3>

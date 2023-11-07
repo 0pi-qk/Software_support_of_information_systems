@@ -1,0 +1,28 @@
+﻿@model AnimeShop.Models.Categories
+
+@{ ViewData["Title"] = "Удалить"; }
+
+<h2>Удалить категорию</h2>
+
+<h3>Вы уверены, что хотите удалить это?</h3>
+<div>
+    <hr />
+    <dl class="dl-horizontal">
+        <input type="hidden" asp-for="Id" />
+        <dt>Название</dt>
+        <dd>
+            @Html.DisplayFor(model => model.Name)
+        </dd>
+        <dt>Описание</dt>
+        <dd>
+            @Html.DisplayFor(model => model.Description)
+        </dd>
+    </dl>
+
+    <form asp-action="Delete">
+        <div class="form-actions no-color">
+            <input type="submit" value="Удалить" class="btn btn-danger" /> |
+            <a asp-action="Index">Вернуться к списку</a>
+        </div>
+    </form>
+</div>

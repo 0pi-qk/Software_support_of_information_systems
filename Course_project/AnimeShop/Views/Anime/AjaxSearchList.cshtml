@@ -1,0 +1,8 @@
+﻿@model List<Anime>
+
+<h4>Результат поиска</h4>
+
+@foreach (var anime in Model)
+{
+@Html.Partial("AnimeSummary", anime)
+}

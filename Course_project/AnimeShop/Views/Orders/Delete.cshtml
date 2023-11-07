@@ -1,0 +1,54 @@
+﻿@model AnimeShop.Models.Order
+
+@{ ViewData["Title"] = "Удалить"; }
+
+<h2>Удалить</h2>
+
+<h3>Вы уверены, что хотите удалить это?</h3>
+<div>
+    <hr />
+    <dl class="dl-horizontal">
+        <input type="hidden" asp-for="OrderId" />
+        <dt>Имя</dt>
+        <dd>
+            @Html.DisplayFor(model => model.FirstName)
+        </dd>
+        <dt>Фамилия</dt>
+        <dd>
+            @Html.DisplayFor(model => model.LastName)
+        </dd>
+        <dt>Адрес</dt>
+        <dd>
+            @Html.DisplayFor(model => model.AddressLine1)
+        </dd>
+        <dt>Номер телефона</dt>
+        <dd>
+            @Html.DisplayFor(model => model.PhoneNumber)
+        </dd>
+        <dt>Заказ</dt>
+        <dd>
+            @Html.DisplayFor(model => model.OrderPlaced)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.Email)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Email)
+        </dd>
+        <dt>Пользователь</dt>
+        <dd>
+            @Html.DisplayFor(model => model.User.Email)
+        </dd>
+        <dt>Итого</dt>
+        <dd>
+            @Model.OrderTotal.ToString("c")
+        </dd>
+    </dl>
+
+    <form asp-action="Delete">
+        <div class="form-actions no-color">
+            <input type="submit" value="Удалить" class="btn btn-danger" /> |
+            <a asp-action="Index">Вернуться к списку</a>
+        </div>
+    </form>
+</div>

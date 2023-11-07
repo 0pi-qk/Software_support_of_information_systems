@@ -1,0 +1,87 @@
+﻿@model Order
+
+@{ var pageName = "Подробнее";
+                ViewData["Title"] = pageName; }
+
+<h2>@pageName о заказе</h2>
+
+<div>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>Имя</dt>
+        <dd>
+            @Html.DisplayFor(model => model.FirstName)
+        </dd>
+        <dt>Фамилия</dt>
+        <dd>
+            @Html.DisplayFor(model => model.LastName)
+        </dd>
+        <dt>Адрес</dt>
+        <dd>
+            @Html.DisplayFor(model => model.AddressLine1)
+        </dd>
+        <dt>Номер телефона</dt>
+        <dd>
+            @Html.DisplayFor(model => model.PhoneNumber)
+        </dd>
+        <dt>Заказ</dt>
+        <dd>
+            @Html.DisplayFor(model => model.OrderPlaced)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.Email)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Email)
+        </dd>
+        <dt>Пользователь</dt>
+        <dd>
+            @Html.DisplayFor(model => model.User.Email)
+        </dd>
+        <dt>
+            <br />----- Детали
+        </dt>
+        <dd>
+            <br /><b>заказа -----</b>
+        </dd>
+        @{decimal subtotal = 0M;}
+        @foreach (OrderDetail orderDetail in ViewBag.OrderDetailsList)
+        {
+<dt>Название</dt>
+                <dd>
+                    @Html.DisplayFor(model => orderDetail.Anime.Name)
+                </dd>
+                                <dt>Количество</dt>
+                                                <dd>
+                                                    @Html.DisplayFor(model => orderDetail.Amount)
+                                                </dd>
+                                                                <dt>Цена</dt>
+                                                                                <dd>
+                                                                                    @orderDetail.Price.ToString("c")
+                                                                                </dd>
+                                                                                                <dt>
+                                                                                                    Сумма
+                                                                                                </dt>
+                                                                                                                <dd>
+                                                                                                                    @{subtotal = orderDetail.Price * orderDetail.Amount;}
+                                                                                                                    @subtotal.ToString("c")
+                                                                                                                </dd>
+                                                                                                                                <dt>
+                                                                                                                                    <br />
+                                                                                                                                </dt>
+                                                                                                                                                <dd>
+                                                                                                                                                    <br />
+                                                                                                                                                </dd>}
+        <dt>
+            Итого
+        </dt>
+        <dd>
+            @Model.OrderTotal.ToString("c")
+        </dd>
+
+    </dl>
+</div>
+<div>
+    @*<a asp-action="Edit" asp-route-id="@Model.OrderId">Edit</a> |*@
+    <a asp-action="Index">Вернуться к списку</a>
+</div>

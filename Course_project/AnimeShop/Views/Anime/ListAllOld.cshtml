@@ -1,0 +1,16 @@
+@model IEnumerable<Anime>
+
+@{
+    var ModelName = "Search Anime";
+    ViewData["Title"] = ModelName;
+}
+
+<h2>@ModelName</h2>
+<hr />
+
+@foreach (var anime in Model)
+{
+    @Html.Partial("AnimeSummary", anime)
+}
+<br />
+    

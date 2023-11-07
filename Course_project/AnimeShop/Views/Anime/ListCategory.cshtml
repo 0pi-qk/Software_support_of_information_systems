@@ -1,0 +1,15 @@
+@model IEnumerable<Anime>
+
+@{
+    var pageName = ViewBag.CurrentCategory;
+    ViewData["Title"] = pageName;
+}
+
+<h2>@pageName</h2>
+<hr />
+
+@foreach (var anime in Model)
+{
+    @Html.Partial("AnimeSummary", anime)
+}
+<br />

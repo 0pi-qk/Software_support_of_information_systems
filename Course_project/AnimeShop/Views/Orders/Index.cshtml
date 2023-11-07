@@ -1,0 +1,62 @@
+﻿@model IEnumerable<Order>
+
+@{ var pageName = "Заказы";
+                ViewData["Title"] = pageName; }
+
+<h2>@pageName</h2>
+
+@if (Model.Count() <= 0)
+{
+<h3>Заказов нет</h3>}
+
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Имя</th>
+            <th>Фамилия</th>
+            <th>Адрес</th>
+            <th>Номер телефона</th>
+            <th>Итого</th>
+            <th>Заказ</th>
+            <th>
+                @Html.DisplayNameFor(model => model.Email)
+            </th>
+            <th>Пользователь</th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+<tr>
+    <td>
+        @Html.DisplayFor(modelItem => item.FirstName)
+    </td>
+    <td>
+        @Html.DisplayFor(modelItem => item.LastName)
+    </td>
+    <td>
+        @Html.DisplayFor(modelItem => item.AddressLine1)
+    </td>
+    <td>
+        @Html.DisplayFor(modelItem => item.PhoneNumber)
+    </td>
+    <td>
+        @item.OrderTotal.ToString("c")
+    </td>
+    <td>
+        @Html.DisplayFor(modelItem => item.OrderPlaced)
+    </td>
+    <td>
+        @Html.DisplayFor(modelItem => item.Email)
+    </td>
+    <td>
+        @Html.DisplayFor(modelItem => item.User.Email)
+    </td>
+    <td>
+        <a asp-action="Details" asp-route-id="@item.OrderId" class="btn btn-info">Детали</a>
+    </td>
+</tr>}
+    </tbody>
+</table>

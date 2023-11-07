@@ -1,0 +1,50 @@
+﻿@model IEnumerable<Reviews>
+
+@{ ViewData["Title"] = "Отзывы на товар"; }
+
+<h2>Отзыв на: @ViewBag.AnimeName</h2>
+
+<h4>
+    <a asp-controller="Anime" asp-action="DisplayDetails"
+       asp-route-id="@ViewBag.AnimeId">Вернуться к  @ViewBag.AnimeName</a>
+</h4>
+
+<p>
+    <a asp-action="CreateWithAnime" asp-route-AnimeId="@ViewBag.AnimeId" class="btn btn-success">Добавить отзыв</a>
+</p>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Отзыв</th>
+            <th>Описание</th>
+            <th>Оценка</th>
+            <th>Дата</th>
+            <th>Название товара</th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+<tr>
+    <td>
+        @Html.DisplayFor(modelItem => item.Title)
+    </td>
+    <td>
+        @Html.DisplayFor(modelItem => item.Description)
+    </td>
+    <td>
+        @Html.DisplayFor(modelItem => item.Grade)
+    </td>
+    <td>
+        @Html.DisplayFor(modelItem => item.Date)
+    </td>
+    <td>
+        @Html.DisplayFor(modelItem => item.Anime.Name)
+    </td>
+    <td>
+
+</tr>}
+    </tbody>
+</table>

@@ -1,0 +1,14 @@
+﻿@model IEnumerable<Anime>
+
+@{
+    var pageName = "Главная страница";
+    ViewData["Title"] = pageName;
+}
+
+
+<div align="center">
+    <h1>Добро пожаловать в магазин аниме атрибутики!</h1>
+    <h2>Лучшие предложения недели нашего магазина</h2>
+</div>
+
+@await Component.InvokeAsync("CarouselMenu")

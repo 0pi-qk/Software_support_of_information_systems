@@ -1,0 +1,41 @@
+﻿@model IEnumerable<Reviews>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Отзыв</th>
+            <th>Описание</th>
+            <th>Оценка</th>
+            <th>Дата</th>
+            <th>Товар</th>
+
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Title)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Description)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Grade)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Date)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Anime.Name)
+            </td>
+
+            <td>
+                <a asp-action="Details" class="btn btn-info" asp-route-id="@item.Id">Подробнее</a>
+            </td>
+        </tr>
+        }
+    </tbody>
+</table>

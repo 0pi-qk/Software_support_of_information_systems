@@ -1,0 +1,58 @@
+﻿@model IEnumerable<Anime>
+
+@{ var pageName = "Каталог товаров";
+                ViewData["Title"] = pageName; }
+
+<h2>@pageName</h2>
+
+<p>
+    <a asp-action="Create" class="btn btn-success">Добавить новый товар</a>
+    @*<a asp-action="Create" class="btn btn-primary">Добавить новый товар</a>
+        <a asp-action="Create" class="btn btn-danger">Добавить новый товар</a>
+        <a asp-action="Create" class="btn btn-default">Добавить новый товар</a>
+        <a asp-action="Create" class="btn btn-info">Добавить новый товар</a>
+        <a asp-action="Create" class="btn btn-success">Добавить новый товар</a>
+        <a asp-action="Create" class="btn btn-warning">Добавить новый товар</a>*@
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>Название</th>
+            <th>Цена</th>
+            <th>Описание</th>
+            <th>Изображение(Url)</th>
+            <th>Товар недели</th>
+            <th>Категория</th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+<tr>
+    <td>
+        @Html.DisplayFor(modelItem => item.Name)
+    </td>
+    <td>
+        @Html.DisplayFor(modelItem => item.Price)
+    </td>
+    <td>
+        @Html.DisplayFor(modelItem => item.Description)
+    </td>
+    <td>
+        @Html.DisplayFor(modelItem => item.ImageUrl)
+    </td>
+    <td>
+        @Html.DisplayFor(modelItem => item.WeeklyProduct)
+    </td>
+    <td>
+        @Html.DisplayFor(modelItem => item.Category.Name)
+    </td>
+    <td>
+        <a asp-action="Edit" asp-route-id="@item.Id">Изменить</a> |
+        <a asp-action="Details" asp-route-id="@item.Id">Подробнее</a> |
+        <a asp-action="Delete" asp-route-id="@item.Id">Удалить</a>
+    </td>
+</tr>}
+    </tbody>
+</table>
